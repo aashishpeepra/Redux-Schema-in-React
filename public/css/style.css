@@ -1,0 +1,112 @@
+body {
+    margin:0;
+    padding:0;
+    font-family: 'Roboto', sans-serif;
+}
+
+
+h2 {
+    font-family: 'Bungee', cursive;
+    color: #3f3f3f;
+}
+
+
+.search_container {
+    text-align: center;
+    border-bottom: 1px solid #d1d1d1;
+    padding-bottom: 20px;
+}
+
+.search_container input {
+    font-size: 20px;
+    border-radius: 30px;
+    border: 1px solid #c1c1c1;
+    padding:10px 20px;
+    outline: 0;
+}
+
+.artist_container {
+    display: -ms-flex;
+	display: -webkit-flex;
+    display: flex;
+    flex-flow: wrap;
+}
+
+.artist_container .artist_item {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.artist_container .artist_item .cover {
+    background-size: cover !important;
+    background-position: center center !important;
+    width: 100%;
+    height: 180px;
+    position: relative;
+}
+
+.artist_container .artist_item .cover div {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    background: #2196F3;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.artist_background {
+    background-size: cover !important;
+    background-position: top center !important;
+    width: 100%;
+    height: 250px;
+    position: relative;
+}
+
+.artist_background div {
+    position: absolute;
+    bottom: 0px;
+    color: #fff;
+    background: #2196F3;
+    padding: 5px;
+    font-size: 16px;
+}
+
+.artist_background a {
+    position: absolute;
+    top: 0px;
+    color: #fff;
+    padding: 5px;
+    font-size: 13px;
+}
+
+.artist_description {
+    box-sizing: border-box;
+    padding:10px;
+    font-size: 14px;
+    font-weight: 300;
+}
+
+.artist_description .tags {
+    color: #007a8a;
+}
+
+.artist_album_list {
+    display: -ms-flex;
+	display: -webkit-flex;
+    display: flex;
+    flex-flow: wrap;
+    padding:10px;
+}
+
+.artist_album_list .albums {
+    flex: 0 0 50%;
+    width: 50%;
+}
+
+.artist_album_list .albums .cover {
+    background-size: cover !important;
+    background-position: top center !important;
+    width: 100%;
+    height: 150px;
+    position: relative;
+}
